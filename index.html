@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>2D Game</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="palms-svg-quotes-vector-43951287.jpg">
+   </head>
+   <body class="body" onkeyup="keyCheck(event)">
+       <div class="background" id="background">
+         
+         <!--<div class="block"></div> --> 
+
+        <!--<div class="block" style="margin-left: 300px;"></div>
+
+         <div class="block" style="margin-left: 600px;"></div> -->
+
+         <img src="Run (1).png" class="player" id="player"/>
+         <div class="score" id="score"> 0 </div>
+
+         <div class="endScreen" id="endScreen">
+             <div class="gameover">Game Over!</div>
+             <div class="yscore" style="font-style: italic;">Your Score</div>
+             <div class="endScore" id="endScore">0</div>
+
+             <button class="btn" onclick="reload()">Try Again</button>
+
+         </div>
+
+       </div>
+      <script src="script.js"></script>
+   </body>
+
+</html>
